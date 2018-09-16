@@ -18,7 +18,7 @@ $ bokeh serve --show bokehCharts.py
 
 ![Alt text](images/img1.jpg?raw=true "Title")
 
-2- enter the url for the csv file on the web (eg : https://assets.datacamp.com/production/course_1639/datasets/titanic.csv) or the location of the path of the csv file on the disk (eg : /relative/path/to/test.csv) 
+2- enter the url for the csv file on the web (eg : https://assets.datacamp.com/production/course_1761/datasets/auto-mpg.csv) or the location of the path of the csv file on the disk (eg : /relative/path/to/test.csv) 
 
 3- the data will be loaded and u can change the variables to visualize
 

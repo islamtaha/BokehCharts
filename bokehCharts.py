@@ -32,10 +32,10 @@ lstval1 = ' '
 lstval2 = ' '
 
 plot1 = figure(title ='Scatter Plot', x_axis_label='', y_axis_label='', width=450)
-plot2 = figure(title ='Data Distribution with probability density function for x axis', x_axis_label='', y_axis_label='', background_fill_color="#E8DDCB", width=450)
-plot3 = figure(title ='Data Distribution with probability density function for y axis', x_axis_label='', y_axis_label='', background_fill_color="#E8DDCB", width=450)
-plot4 = figure(title ='cumulative density function for x axis variable', x_axis_label='', y_axis_label='', background_fill_color="#E8DDCB", width=450)
-plot5 = figure(title ='cumulative density function for y axis variable', x_axis_label='', y_axis_label='', background_fill_color="#E8DDCB", width=450)
+plot2 = figure(title ='Data Distribution with probability density function for x axis', x_axis_label='', y_axis_label='', background_fill_color="#E8DDCB", width=600)
+plot3 = figure(title ='Data Distribution with probability density function for y axis', x_axis_label='', y_axis_label='', background_fill_color="#E8DDCB", width=600)
+plot4 = figure(title ='cumulative density function for x axis variable', x_axis_label='', y_axis_label='', background_fill_color="#E8DDCB", width=420)
+plot5 = figure(title ='cumulative density function for y axis variable', x_axis_label='', y_axis_label='', background_fill_color="#E8DDCB", width=420)
 
 
 
@@ -126,7 +126,8 @@ def update():
 	plot5.yaxis.axis_label = 'Pr(' + xf.columns[0] +')'
 
 
-	layout.children.append(gridplot(plot1,plot2,plot3, plot4, plot5, ncols=3))
+	layout.children.append(gridplot(plot1,plot4,plot5, ncols=3))
+	layout.children.append(gridplot(plot2, plot3, ncols=2))
 
 
 
