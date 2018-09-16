@@ -41,9 +41,14 @@ plot5 = figure(title ='cumulative density function for y axis variable', x_axis_
 
 def update():
 	link = text_input.value
-	r = requests.get(link)
-	data = StringIO(r.text)
+	data = None
+	if link.startswith('http'):
+		r = requests.get(link)
+		data = StringIO(r.text)
+	else:
+		data = link
 	df = pd.read_csv(data)
+
 	global xf
 	xf = df.copy()
 	source = ColumnDataSource(df)
