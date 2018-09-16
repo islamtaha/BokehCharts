@@ -28,9 +28,9 @@ $ bokeh serve --show bokehCharts.py
 ![Alt text](images/img3.jpg?raw=true "Title")
 
 
-![Alt text](images/imgs/img4.jpg?raw=true "Title")
+![Alt text](images/img4.jpg?raw=true "Title")
 
 
-![Alt text](images/imgs/img5.jpg?raw=true "Title")
+![Alt text](images/img5.jpg?raw=true "Title")
 
 
