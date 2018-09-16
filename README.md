@@ -12,7 +12,7 @@ $ conda install --yes --file requirements.txt
 
 $ bokeh serve --show bokehCharts.py
 
-## using
+## usage
 1 - go to http://localhost:5006/bokehCharts in the browser
 
 
